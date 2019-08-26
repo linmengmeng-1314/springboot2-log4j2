@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LinApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Run Application..........");
 		SpringApplication.run(LinApplication.class, args);
 	}
 }
